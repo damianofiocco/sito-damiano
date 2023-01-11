@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class UserService {
 
   apiUrlLista = 'https://api.github.com/users?per_page=10';
-  apiUrlSingolo = 'https://api.github.com/user?';
+  apiUrlSingolo = 'https://api.github.com/user';
 
   constructor(private http: HttpClient) { }
 
