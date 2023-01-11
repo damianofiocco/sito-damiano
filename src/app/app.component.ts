@@ -3,11 +3,19 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  Ciao, sono il tuo nuovo sito! 🌍
+
+    <app-header></app-header>
+
     <router-outlet></router-outlet>
+
+    <app-footer></app-footer>
+
   `,
   styles: []
 })
 export class AppComponent {
-  title = 'sito-damiano';
+  
+  constructor(){}
+
+
 }
